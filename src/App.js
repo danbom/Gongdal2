@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <BackTop />
         <Layout
           className="layout"
